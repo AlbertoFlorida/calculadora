@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora PHP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Calculadora PHP</h2>
+        <form action="suma_resta.php" method="POST">
+            <input type="number" name="num1" placeholder="Ingrese el primer número" required>
+            <input type="number" name="num2" placeholder="Ingrese el segundo número" required>
+
+            <button type="submit" name="operacion" value="sumar">Sumar</button>
+            <button type="submit" name="operacion" value="restar">Restar</button>
+        </form>
+        <form action="multiplicacion_division.php" method="POST">
+            <input type="number" name="num1" placeholder="Ingrese el primer número" required>
+            <input type="number" name="num2" placeholder="Ingrese el segundo número" required>
+
+            <button type="submit" name="operacion" value="multiplicar">Multiplicar</button>
+            <button type="submit" name="operacion" value="dividir">Dividir</button>
+        </form>
+    </div>
+</body>
+</html>
