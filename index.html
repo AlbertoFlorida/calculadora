@@ -8,18 +8,12 @@
 </head>
 <body>
     <div class="calculator">
-        <h2>Calculadora PHP</h2>
-        <form action="suma_resta.php" method="POST">
+        <h2>Calculadora</h2>
+        <form action="calculadora.php" method="POST">
             <input type="number" name="num1" placeholder="Ingrese el primer número" required>
             <input type="number" name="num2" placeholder="Ingrese el segundo número" required>
-
             <button type="submit" name="operacion" value="sumar">Sumar</button>
             <button type="submit" name="operacion" value="restar">Restar</button>
-        </form>
-        <form action="multiplicacion_division.php" method="POST">
-            <input type="number" name="num1" placeholder="Ingrese el primer número" required>
-            <input type="number" name="num2" placeholder="Ingrese el segundo número" required>
-
             <button type="submit" name="operacion" value="multiplicar">Multiplicar</button>
             <button type="submit" name="operacion" value="dividir">Dividir</button>
         </form>
